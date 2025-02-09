@@ -1,0 +1,61 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+    height: 100%;
+    background: #000;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+    font-size: 60px;
+    color: #fff;
+}
+
+.category-cell {
+    padding: 20px;
+
+}
+
+.cell-content {
+    background: #00f;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-cell {
+    padding: 20px;
+    color: #f4da00;
+}
+
+.question-screen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 20px;
+}
+
+.question-screen-content {
+    background: #00f;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    color: #fff;
+}
