@@ -3,14 +3,26 @@ import './App.css';
 import {exampleDataSet} from "./data-sets/example";
 import {Board} from './board';
 import {QuestionScreen} from './question-screen';
+import {exampleDataSet2} from "./data-sets/example2";
+
+const dataSetNameToValueMap = {
+    example: exampleDataSet,
+    example2: exampleDataSet2,
+
+};
+const urlParams = new URLSearchParams(window.location.search);
+const dataSetName = urlParams.get('dataset');
+
+const queryParamDataSet = dataSetNameToValueMap[dataSetName] || exampleDataSet;
 
 function App() {
     const [selectedQuestion, setSelectedQuestion] = useState();
-    const [dataSet, setDataSet] = useState(exampleDataSet);
+    const [dataSet, setDataSet] = useState(queryParamDataSet);
     const goBack = useCallback(() => {
         selectedQuestion.answered = true;
         setSelectedQuestion(null);
     }, [selectedQuestion]);
+
   return (
     <div className="App">
         {
