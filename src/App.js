@@ -18,7 +18,7 @@ const queryParamDataSet = dataSetNameToValueMap[dataSetName] || exampleDataSet;
 
 function App() {
     const [selectedQuestion, setSelectedQuestion] = useState();
-    const [dataSet, setDataSet] = useState(queryParamDataSet);
+    const [dataSet] = useState(queryParamDataSet);
     const goBack = useCallback(() => {
         selectedQuestion.answered = true;
         setSelectedQuestion(null);

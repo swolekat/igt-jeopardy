@@ -7,7 +7,7 @@ export const exampleDataSet = {
             questions: [
                 {
                     value: '$200',
-                    question: 'Question?',
+                    question: 'This sentence is designed explicitly to reach roughly 23 words in length. I will keep padding it out so we can test formatting.',
                     answer: "Answer!"
                 },
                 {
