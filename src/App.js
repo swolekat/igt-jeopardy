@@ -4,11 +4,12 @@ import {exampleDataSet} from "./data-sets/example";
 import {Board} from './board';
 import {QuestionScreen} from './question-screen';
 import {exampleDataSet2} from "./data-sets/example2";
+import {firstCategoryDataSet} from "./data-sets/firstCategory";
 
 const dataSetNameToValueMap = {
     example: exampleDataSet,
     example2: exampleDataSet2,
-
+    firstcategory: firstCategoryDataSet,
 };
 const urlParams = new URLSearchParams(window.location.search);
 const dataSetName = urlParams.get('dataset');
