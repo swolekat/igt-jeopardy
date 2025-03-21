@@ -68,28 +68,32 @@ export const firstBoardTestDataSet = {
                 {
                     value: '$200',
                     question: 'Question?',
-                    answer: "Answer!",
+                    answer: "Sonic Adventure",
                     embed: 'https://www.youtube.com/embed/GLeuCxSFiFw'
                 },
                 {
                     value: '$400',
                     question: 'Question?',
-                    answer: "Answer!"
+                    answer: "Sonic Heroes",
+                    embed: 'https://www.youtube.com/embed/9ME0Mtd1Hqk'
                 },
                 {
                     value: '$600',
                     question: 'Question?',
-                    answer: "Answer!"
+                    answer: "Sonic the Hedgehog (2006)",
+                    embed:'https://www.youtube.com/embed/5DZHAUIshok'
                 },
                 {
                     value: '$800',
                     question: 'Question?',
-                    answer: "Answer!"
+                    answer: "Sonic Pinball Party",
+                    embed: 'https://www.youtube.com/embed/8UX2FpTiO7A'
                 },
                 {
                     value: '$1000',
                     question: 'Question?',
-                    answer: "Answer!"
+                    answer: "Sonic Runners",
+                    embed: 'https://www.youtube.com/watch?v=8UX2FpTiO7A'
                 },
             ],
         },
@@ -120,7 +124,7 @@ export const firstBoardTestDataSet = {
                     value: '$1000',
                     question: 'This Chao is comprised of these two stats [Order matters].',
                     answer: "Dark Fly/Run",
-                    image: "https://cdn.discordapp.com/attachments/905640022533877772/1352751856086028340/chao.png?ex=67df27d7&is=67ddd657&hm=7328f2ce8fdc4ac468bc1518a39d87612c394ea2e4987bf79a752aea05ce2a2d&"
+                    image: 'https://cdn.discordapp.com/attachments/905640022533877772/1352751856086028340/chao.png?ex=67df27d7&is=67ddd657&hm=7328f2ce8fdc4ac468bc1518a39d87612c394ea2e4987bf79a752aea05ce2a2d&'
                 },
             ],
         },
