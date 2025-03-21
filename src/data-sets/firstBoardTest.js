@@ -38,7 +38,7 @@ export const firstBoardTestDataSet = {
                 {
                     value: '$200',
                     question: 'He\'s known for his incredible intelect and close relationship to Sonic.',
-                    answer: "Miles "Tails" Prower"
+                    answer: "Miles \"Tails\" Prower"
                 },
                 {
                     value: '$400',

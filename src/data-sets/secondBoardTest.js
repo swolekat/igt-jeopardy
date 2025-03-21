@@ -33,7 +33,7 @@ export const secondBoardTestDataSet = {
             ],
         },
         {
-            name: 'The Madman's Militia',
+            name: 'The Madman\'s Militia',
             questions: [
                 {
                     value: '$400',
