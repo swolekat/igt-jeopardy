@@ -37,17 +37,17 @@ export const firstBoardTestDataSet = {
             questions: [
                 {
                     value: '$200',
-                    question: 'He's known for his incredible intelect and close relationship to Sonic.',
+                    question: 'He\'s known for his incredible intelect and close relationship to Sonic.',
                     answer: "Miles "Tails" Prower"
                 },
                 {
                     value: '$400',
-                    question: 'This character's defining traits are his super strength and his striking red color.',
+                    question: 'This character\'s defining traits are his super strength and his striking red color.',
                     answer: "Knuckles the Echidna"
                 },
                 {
                     value: '$600',
-                    question: 'Her stoic and terse nature tend to throw others off at first, but she's really nice when you get to know her.',
+                    question: 'Her stoic and terse nature tend to throw others off at first, but she\'s really nice when you get to know her.',
                     answer: "Blaze the Cat"
                 },
                 {
@@ -153,7 +153,7 @@ export const firstBoardTestDataSet = {
             ],
         },
         {
-            name: 'Now I'll Use Your Power!',
+            name: 'Now I\'ll Use Your Power!',
             questions: [
                 {
                     value: '$200',
@@ -172,7 +172,7 @@ export const firstBoardTestDataSet = {
                 },
                 {
                     value: '$800',
-                    question: 'Tails violated the Geneva Convention by obtaining this upgrade in Tails's Adventure.',
+                    question: 'Tails violated the Geneva Convention by obtaining this upgrade in Tails\'s Adventure.',
                     answer: "Napalm Bomb"
                 },
                 {

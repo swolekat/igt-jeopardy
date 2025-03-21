@@ -5,11 +5,16 @@ import {Board} from './board';
 import {QuestionScreen} from './question-screen';
 import {exampleDataSet2} from "./data-sets/example2";
 import {firstCategoryDataSet} from "./data-sets/firstCategory";
+import {firstBoardTestDataSet} from "./data-sets/firstBoardTest";
+import {secondBoardTestDataSet} from "./data-sets/secondBoardTest";
 
 const dataSetNameToValueMap = {
     example: exampleDataSet,
     example2: exampleDataSet2,
     firstcategory: firstCategoryDataSet,
+    firstBoard: firstBoardTestDataSet,
+    secondBoard: secondBoardTestDataSet,
+
 };
 const urlParams = new URLSearchParams(window.location.search);
 const dataSetName = urlParams.get('dataset');

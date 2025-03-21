@@ -77,7 +77,7 @@ export const secondBoardTestDataSet = {
                 },
                 {
                     value: '$1200',
-                    question: 'Who's this broad?',
+                    question: 'Who\'s this broad?',
                     answer: "Vector the Crocodile"
                 },
                 {
@@ -87,7 +87,7 @@ export const secondBoardTestDataSet = {
                 },
                 {
                     value: '$2000',
-                    question: 'It's my turn now!',
+                    question: 'It\'s my turn now!',
                     answer: "Amy Rose"
                 },
             ],
