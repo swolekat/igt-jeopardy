@@ -68,8 +68,8 @@ export const firstBoardTestDataSet = {
                 {
                     value: '$200',
                     question: 'Question?',
-                    answer: "Answer!"
-                    embed: 'https://youtu.be/GLeuCxSFiFw?si=IAj9OTTd8_H8lsWq'
+                    answer: "Answer!",
+                    embed: 'https://www.youtube.com/embed/GLeuCxSFiFw'
                 },
                 {
                     value: '$400',
@@ -119,7 +119,8 @@ export const firstBoardTestDataSet = {
                 {
                     value: '$1000',
                     question: 'This Chao is comprised of these two stats [Order matters].',
-                    answer: "Dark Fly/Run"
+                    answer: "Dark Fly/Run",
+                    image: "https://cdn.discordapp.com/attachments/905640022533877772/1352751856086028340/chao.png?ex=67df27d7&is=67ddd657&hm=7328f2ce8fdc4ac468bc1518a39d87612c394ea2e4987bf79a752aea05ce2a2d&"
                 },
             ],
         },
