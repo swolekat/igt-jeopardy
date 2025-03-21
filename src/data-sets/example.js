@@ -12,13 +12,15 @@ export const exampleDataSet = {
                 },
                 {
                     value: '$400',
-                    question: 'Question?',
-                    answer: "Answer!"
+                    question: 'This sentence is designed explicitly to reach roughly 23 words in length. I will keep padding it out so we can test formatting.',
+                    answer: "Answer!",
+                    image: 'https://swolekat.info/avatars/avatarThumbnailsSmall/sk2.5.webp'
                 },
                 {
                     value: '$600',
                     question: 'Question?',
-                    answer: "Answer!"
+                    answer: "Answer!",
+                    embed: 'https://www.youtube.com/embed/jvPUU_cTWt4?si=VsRI29-zLLSO9I1Q'
                 },
                 {
                     value: '$800',

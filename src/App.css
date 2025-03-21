@@ -17,6 +17,7 @@ body,
     height: 100%;
     font-size: 60px;
     color: #fff;
+    overflow: hidden;
 }
 
 .category-cell {
@@ -58,6 +59,48 @@ body,
     justify-content: center;
     font-size: 120px;
     color: #fff;
-    padding: 200px;
+
     text-align: center;
 }
+
+.question-text-content {
+    padding: 200px;
+}
+
+.embed-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.embed-iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.embed-next-button {
+    font-size: 72px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.image-question-container {
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+
+.image-question-container > * {
+    height: 100%;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.image-question-container > img {
+    display: block;
+    object-fit: contain;
+}
+
+
