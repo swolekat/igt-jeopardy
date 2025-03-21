@@ -93,7 +93,7 @@ export const firstBoardTestDataSet = {
                     value: '$1000',
                     question: 'Question?',
                     answer: "Sonic Runners",
-                    embed: 'https://www.youtube.com/watch?v=8UX2FpTiO7A'
+                    embed: 'https://www.youtube.com/embed/ptWqRToA4ck'
                 },
             ],
         },
