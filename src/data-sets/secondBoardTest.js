@@ -8,27 +8,32 @@ export const secondBoardTestDataSet = {
                 {
                     value: '$400',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Sonic Superstars",
+                    embed: 'https://www.youtube.com/embed/Dx5HJNAZ-fQ'
                 },
                 {
                     value: '$800',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Sonic 3D Blast",
+                    embed: 'https://www.youtube.com/watch?v=U_p3x_CsleQ'
                 },
                 {
                     value: '$1200',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Sonic the Hedgehog 3",
+                    embed: 'https://www.youtube.com/embed/oqXGnqXvNIQ'
                 },
                 {
                     value: '$1600',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Sonic Drift 2",
+                    embed: 'https://www.youtube.com/embed/aXjejscVxO0'
                 },
                 {
                     value: '$2000',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Sonic Pocket Adventure",
+                    embed: 'https://www.youtube.com/embed/uYuSpSQgEhM'
                 },
             ],
         },
@@ -128,27 +133,32 @@ export const secondBoardTestDataSet = {
                 {
                     value: '$400',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Chemical Plant Zone",
+                    embed: 'https://www.youtube.com/embed/OBvwH0gPlcc&'
                 },
                 {
                     value: '$800',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Chaos Angel Zone",
+                    embed: 'https://www.youtube.com/embed/POfRzFnTZHk'
                 },
                 {
                     value: '$1200',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Gigalopolis Zone",
+                    embed: 'https://www.youtube.com/embed/POfRzFnTZHk'
                 },
                 {
                     value: '$1600',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Lava Powerhouse",
+                    embed: 'https://www.youtube.com/embed/b7ZPuvpbDTw'
                 },
                 {
                     value: '$2000',
                     question: 'Q',
-                    answer: "A"
+                    answer: "Desert Dodge",
+                    embed: 'https://www.youtube.com/embed/VHpIZw0KOec'
                 },
             ],
         },
