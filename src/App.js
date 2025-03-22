@@ -5,14 +5,14 @@ import {Board} from './board';
 import {QuestionScreen} from './question-screen';
 import {exampleDataSet2} from "./data-sets/example2";
 import {firstCategoryDataSet} from "./data-sets/firstCategory";
-import {firstBoardTestDataSet} from "./data-sets/firstBoardTest";
-import {secondBoardTestDataSet} from "./data-sets/secondBoardTest";
+import {firstBoardDataSet} from "./data-sets/firstBoard";
+import {secondBoardTestDataSet} from "./data-sets/secondBoard";
 
 const dataSetNameToValueMap = {
     example: exampleDataSet,
     example2: exampleDataSet2,
     firstcategory: firstCategoryDataSet,
-    firstBoard: firstBoardTestDataSet,
+    firstBoard: firstBoardDataSet,
     secondBoard: secondBoardTestDataSet,
 
 };
