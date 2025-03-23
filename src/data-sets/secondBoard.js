@@ -112,8 +112,8 @@ export const secondBoardTestDataSet = {
                 },
                 {
                     value: '$1200',
-                    question: 'Q',
-                    answer: "A"
+                    question: 'In both Sonic Unleashed and Sonic Generations, this base game mechanic can be used to gain unintentional speed.',
+                    answer: "Drifting"
                 },
                 {
                     value: '$1600',
@@ -122,8 +122,8 @@ export const secondBoardTestDataSet = {
                 },
                 {
                     value: '$2000',
-                    question: 'Casinopolis',
-                    answer: "This Sonic Adventure stage can be beaten in under 10 seconds by clipping through a wall and jumping off of some hidden ground."
+                    question: 'This Sonic Adventure stage can be beaten in under 10 seconds by clipping through a wall and jumping off of some hidden ground.',
+                    answer: "Casinopolis"
                 },
             ],
         },
